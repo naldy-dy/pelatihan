@@ -10,7 +10,7 @@
             <a href="?page=peminjaman">Data Peminjaman</a>
         </li>
         <li class="<?php isActive('ruangan') ?>">
-            <a href="?page=ruangan">Data Peminjaman</a>
+            <a href="?page=ruangan">Data Ruangan</a>
         </li>
     </ul>
 </aside>

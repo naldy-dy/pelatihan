@@ -8,7 +8,8 @@
 		</div>
 	</div>
 	<div class="card-body">
-		<div class="form-group">
+		<form action="?page=ruangan/store" method="post">
+			<div class="form-group">
 			<label class="label-control">kode Ruangan</label>
 			<input class="form-control" name="kode_ruangan" type="text"></input>
 		</div>
@@ -16,5 +17,7 @@
 			<label class="label-control">Nama Ruangan</label>
 			<input class="form-control" name="nama_ruangan" type="text"></input>
 		</div>
+		<button class="btn btn-info float-right">Simpan</button>
+		</form>
 	</div>
 </di>
